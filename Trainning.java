@@ -136,7 +136,7 @@ public static  void findLevelOfElement(String input)
 }
 
 public static String primary_property[] = new String {"bar","bak","ban","foo"} ;                  //...
-public Oder update_version(Oder obj,String ver,String key_miss )
+public static Oder update_version(Oder obj,String ver,String key_miss )
 {
         ver = "v2"; // default to test                        
         obj.setbak(key_miss);
@@ -144,7 +144,7 @@ public Oder update_version(Oder obj,String ver,String key_miss )
         return obj;
         
 }
-public void update_version(Oder obj,String ver,String [] key_miss)
+public static Oder update_version(Oder obj,String ver,String [] key_miss)
 {
         for (int i = 0 ; i < key_miss.length();i++)
         {
